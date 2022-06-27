@@ -1,0 +1,293 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    color: rgb(42, 42, 42);
+}
+
+main {
+    max-width: 1280px;
+    margin:auto;
+}
+
+.banner-container {
+    margin-top:50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    width:50%;
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+h1 {
+    font-weight:900;
+    font-size:45px;
+}
+
+h2 {
+    font-weight:900;
+    font-size:45px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight:900;
+    font-size:15px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight:900;
+    font-size:25px;
+}
+
+.title-container {
+    width:50%;
+}
+
+.title-container a {
+    font-weight:900;
+    background:yellow;
+
+    /* top right bottom left */
+    /* padding: 15px 75px 15px 75px; */
+    
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 75px;
+    padding-right: 75px; 
+}
+
+.title-container p {
+    padding-bottom: 30px;
+}
+
+a {
+    /* nuimame numatyta nuorodos formatavimas */
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    text-transform: uppercase;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    text-transform: uppercase;
+}
+
+a:hover {
+    color:rgb(167, 164, 164);
+    /* ryskumas */
+    opacity: 0.5;
+}
+
+
+.logo img {
+    max-width: 64px;
+}
+
+.top-container {
+    display:flex;
+    justify-content: space-between;
+    /* automatiskai parenka parastes is kaires ir desines puses */
+    margin: 0 auto;
+    /* svetaines iscentravimas su margin auto ir maksimaliu plociu */
+    max-width: 1280px;
+    background: #fff;
+    padding-top: 20px;
+}
+
+.navigation {
+    display:inline-block;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right:30px;
+}
+.navigation ul li:last-child {
+    margin-right:0;
+}
+
+.blog-container {
+    margin-top: 100px;
+}
+
+.blog-container .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-container .cards .card {
+    width: 31%;
+}
+
+.blog-container .cards .card img {
+    height: 250px;
+    width: 100%;
+    display: block;
+}
+
+.blog-container .cards .card .image .more {
+    display: none;
+}
+
+.blog-container .cards .card:hover .image{
+    background-color: rgba(255, 244, 0);
+}
+
+.blog-container .cards .card:hover .image img {
+    opacity: 0.5;
+}
+
+.blog-container .cards .card:hover .image .more {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 250px;
+    margin-top: -250px;
+    margin-bottom: 0;
+    position: absolute;
+}
+
+.blog-container .card .date {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.contact-container {
+    margin-top: 100px;
+}
+
+.contact-container .form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-container .form-container .form {
+    width: 49%;
+}
+
+.contact-container .form-container .image-container {
+    width: 49%;
+}
+
+.contact-container .form-container .image-container img {
+    max-width: 100%;
+}
+
+.contact-container .form-container .form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border: none;
+    font-family: 'Montserrat';
+}
+
+.contact-container .form-container .form form {
+    margin-bottom: 30px;
+}
+
+.contact-container h4 {
+    margin-top: 0;
+}
+
+.contact-container a {
+    font-weight:900;
+    background:yellow;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 75px;
+    padding-right: 75px; 
+}
+
+.contact-container .icons-container {
+    margin: 50px 0px;
+}
+
+.contact-container .contact-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 40%;
+}
+
+.contact-container .contact-icon {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    width: 150px;
+}
+
+.contact-container .contact-icon img {
+    height: 32px;
+    width: auto;
+}
+
+.contact-container .contact-icon {
+    text-align: center;
+}
+
+.contact-container .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 15%;
+}
+
+.contact-container .social-icon img {
+    height: 32px;
+    width: auto;
+}
+
+footer {
+    background-color: rgb(42, 42, 42);
+    color: #fff;
+    padding: 20px 0 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin:auto;
+    align-items: center;
+}
+
+/* .footer-container .left-side p {
+    display: inline-block;
+} */
+
+.footer-container .left-side {
+    display: flex;
+    align-items: center;
+}
+
+.footer-container .right-side a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-container .right-side a .text {
+   margin-right: 10px;
+}
+
+.footer-container .right-side a .symbol {
+    transform: rotate(90deg);
+}
+
+.footer-container .footer-logo {
+    margin-right: 20px;
+}
+
+.footer-container img {
+    max-width: 64px;
+}
