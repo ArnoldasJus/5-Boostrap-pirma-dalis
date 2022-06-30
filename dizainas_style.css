@@ -213,6 +213,17 @@ a:hover {
     object-fit: cover;
 }
 
+.about-container .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;    
+    align-items: center;
+}
+
+.about-container .grid-container .grid-item img {
+    max-width: 100%;
+}
+
 .contact-container {
     margin-top: 100px;
 }
