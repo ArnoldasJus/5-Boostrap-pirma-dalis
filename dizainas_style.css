@@ -45,6 +45,10 @@ h4 {
     font-size:25px;
 }
 
+h5 {
+
+}
+
 .title-container {
     width:50%;
 }
@@ -220,8 +224,36 @@ a:hover {
     align-items: center;
 }
 
+.about-container .grid-container .grid-item {
+    position: relative;
+    /* text-align: center; */
+    /* color: white; */
+}
+
 .about-container .grid-container .grid-item img {
     max-width: 100%;
+}
+
+.about-container .grid-container .grid-item .image-label {
+    background-color: gold;
+    max-width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.about-container .grid-container .grid-item .image-label p {
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.about-container .grid-container .grid-item .image-label h5 {
+    font-size: 16px;
+    margin: 5px;
 }
 
 .contact-container {
